@@ -1,0 +1,28 @@
+{
+  "name": "sorting-out",
+  "version": "1.0.0",
+  "private": true,
+  "main": "script.js",
+  "entry": "./src/index.html",
+  "scripts": {
+    "start": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AldwinBenitez16/sorting-out.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AldwinBenitez16/sorting-out/issues"
+  },
+  "homepage": "https://github.com/AldwinBenitez16/sorting-out#readme",
+  "devDependencies": {
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
