@@ -5,12 +5,12 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 module.exports = {
     mode: 'development',
     entry: {
-        script: './src/script.js',
-        print: './src/print.js'
+        script: './src/script.js'
     },
     devtool: 'inline-source-map',
     devServer: {
-        contentBase: './build'
+        contentBase: './build',
+        hot: true
     },
     plugins: [
         new CleanWebpackPlugin(),

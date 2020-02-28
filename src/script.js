@@ -25,4 +25,14 @@ function component() {
     return element;
 };
 
-document.body.appendChild(component());
+let element = component();
+document.body.appendChild(element);
+
+if(module.hot) {
+    module.hot.accept('./print.js', function() {
+        console.log('Updating the print.js file...!');
+        document.body.removeChild(element);
+        element = component();
+        document.body.appendChild(element);
+    });
+}
