@@ -1,3 +1,8 @@
+body {
+    background-color: lightblue;
+    /* background-color: lightpink; */
+}
+
 .hello {
     color: red;
     background: url('./assets/images/image-1.png');

@@ -1,0 +1,3 @@
+export {
+    renderControls
+} from './controlsView';
